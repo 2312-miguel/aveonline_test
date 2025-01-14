@@ -87,11 +87,11 @@ Once the installation is complete, you can access the application at:
 #### Example `.env` Configuration
 ```env
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
+DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=aveonline_test
+DB_DATABASE=laravel
 DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_PASSWORD=root
 ```
 
 ---
