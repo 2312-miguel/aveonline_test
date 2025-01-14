@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/vendor
+package-lock.json
+composer.lock
+
+# Version Control
+.git
+.gitignore
+.gitattributes
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Development
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+.editorconfig
+
+# Build & Test
+/build
+/dist
+/coverage
+.phpunit.result.cache
+phpunit.xml
+*.log
+
+# Docker
+Dockerfile*
+docker-compose*
+.docker/
+
+# Application Specific
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/public/hot
+/public/storage
+/public/mix-manifest.json
+
+# Documentation
+*.md
+/docs
+
+# Other
+*.zip
+*.tar.gz
+*.rar
