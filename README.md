@@ -29,7 +29,7 @@ Once the installation is complete, you can access the application at:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/2312-miguel/aveonline_test.git
    cd aveonline_test
    ```
 
@@ -78,7 +78,7 @@ Once the installation is complete, you can access the application at:
   docker exec laravel_app php artisan {command}
   ```
 
-#### Test
+#### Run Test
 
   ```bash
   docker exec laravel_app php artisan test
@@ -108,7 +108,7 @@ DB_PASSWORD=your_password
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/2312-miguel/aveonline_test.git
    cd aveonline_test
    ```
 
@@ -228,27 +228,28 @@ php artisan db:seed
 - **GET** `/api/users/{userId}/balance-summary`
   - Description: Get balance summary
   - Response:
-json
-    {
-      "userId": 1,
-      "totalDeposits": 5000.0,
-      "totalWithdrawals": 4000.0,
-      "currentBalance": 1000.0
-    }
-
+    ```json
+        {
+          "userId": 1,
+          "totalDeposits": 5000.0,
+          "totalWithdrawals": 4000.0,
+          "currentBalance": 1000.0
+        }
+    ```
 
 ### Activity Logged Routes
 
 - **GET** `/api/users/{userId}/details`
   - Description: Get user details
   - Response:
-json
-    {
-      "userId": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "createdAt": "2023-01-01T00:00:00Z"
-    }
+    ```json
+        {
+          "userId": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "createdAt": "2023-01-01T00:00:00Z"
+        }
+    ```
 
 ### Administrative
 - **GET** `/api/logs/download`
