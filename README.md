@@ -41,7 +41,7 @@ Once the installation is complete, you can access the application at:
 3. Configure the environment:
    ```bash
    cp .env.example .env
-   docker exec laravel_app php artisan key:generate
+   docker exec aveonline_app php artisan key:generate
    ```
 
 #### Example `.env` Configuration
@@ -56,11 +56,11 @@ DB_PASSWORD=root
 
 4. Run database migrations:
    ```bash
-   docker exec laravel_app php artisan migrate
+   docker exec aveonline_app php artisan migrate
    ```
 5. Run database seeders:
    ```bash
-   docker exec laravel_app php artisan db:seed
+   docker exec aveonline_app php artisan db:seed
    ```
 
 6. Access the application:
@@ -85,13 +85,13 @@ DB_PASSWORD=root
   ```
 - Run Laravel commands:
   ```bash
-  docker exec laravel_app php artisan {command}
+  docker exec aveonline_app php artisan {command}
   ```
 
 #### Run Test
 
   ```bash
-  docker exec laravel_app php artisan test
+  docker exec aveonline_app php artisan test
   ```
 
 ---
