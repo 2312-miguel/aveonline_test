@@ -49,7 +49,7 @@ Once the installation is complete, you can access the application at:
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=laravel
+DB_DATABASE=aveonline_db
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
