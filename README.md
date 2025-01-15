@@ -44,6 +44,16 @@ Once the installation is complete, you can access the application at:
    docker exec laravel_app php artisan key:generate
    ```
 
+#### Example `.env` Configuration
+```env
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
 4. Run database migrations:
    ```bash
    docker exec laravel_app php artisan migrate
@@ -84,16 +94,6 @@ Once the installation is complete, you can access the application at:
   docker exec laravel_app php artisan test
   ```
 
-#### Example `.env` Configuration
-```env
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=root
-```
-
 ---
 
 ### Local Installation
@@ -123,6 +123,16 @@ DB_PASSWORD=root
    cp .env.example .env
    php artisan key:generate
    ```
+
+#### Example `.env` Configuration
+```env
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```   
 
 4. Set up the database:
    ```bash
